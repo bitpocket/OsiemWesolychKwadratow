@@ -50,7 +50,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClockGame.cs" />
+    <Compile Include="PomodoroGame.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="ConstrainStopperGame.cs" />
+    <Compile Include="StoperGame.cs" />
     <Compile Include="GameController.cs" />
     <Compile Include="gameType.cs" />
     <Compile Include="IGame.cs" />
