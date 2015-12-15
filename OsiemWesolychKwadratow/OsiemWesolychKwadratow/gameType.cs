@@ -7,6 +7,7 @@
 		FifeMinutes,
 		FitheenMinutes,
 		Pomodoro,
-		EightHours
+		EightHours,
+		LightsOff
 	}
 }

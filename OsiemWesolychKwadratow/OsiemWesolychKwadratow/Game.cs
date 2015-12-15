@@ -63,6 +63,11 @@ namespace OsiemWesolychKwadratow
 			}
 		}
 
+		public void ButtonPress(int x, int y)
+		{
+			
+		}
+
 		public event EventHandler Repaint;
 	}
 }

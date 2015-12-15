@@ -111,7 +111,13 @@ namespace OsiemWesolychKwadratow
                     if (Convert.ToInt32(panele[x, y].Tag) == PanelID)
                     {
                         panel1_Click(panele[x, y], null);
-                    }
+						IGame game = GameController.Instance().currentGame;
+
+						if (game != null)
+						{
+							game.ButtonPress(x, y);
+						}
+					}
 
                 }
             }

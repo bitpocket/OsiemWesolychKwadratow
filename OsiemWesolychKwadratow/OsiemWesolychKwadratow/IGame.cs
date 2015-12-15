@@ -9,5 +9,7 @@ namespace OsiemWesolychKwadratow
 		void Stop();
 		bool[,] GetState();
 		event EventHandler Repaint;
+
+		void ButtonPress(int x, int y);
 	}
 }

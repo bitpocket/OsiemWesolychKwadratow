@@ -59,6 +59,9 @@ namespace OsiemWesolychKwadratow
 				case GameType.Pomodoro:
 					game = new PomodoroGame();
 					break;
+				case GameType.LightsOff:
+					game = new LightsOffGame();
+					break;
 				default:
 					break;
 			}
